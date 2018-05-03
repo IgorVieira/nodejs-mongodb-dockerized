@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-mongodb-dockerized",
+  "version": "1.0.0",
+  "description": "This repository provides a docker development environment for Node.js applications using MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbrady/nodejs-mongodb-dockerized.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB",
+    "docker",
+    "development"
+  ],
+  "author": "Bob Brady <bob@digibrady.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobbrady/nodejs-mongodb-dockerized/issues"
+  },
+  "homepage": "https://github.com/bobbrady/nodejs-mongodb-dockerized#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  }
+}
